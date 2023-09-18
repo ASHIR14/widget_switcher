@@ -9,9 +9,16 @@ class WidgetSwitcher extends StatefulWidget {
     super.key,
   });
 
+  /// The first widget to be displayed.
   final Widget firstWidget;
+
+  /// The second widget to be displayed.
   final Widget secondWidget;
+
+  /// Whether to switch to the second widget.
   final bool switchToSecondWidget;
+
+  /// The duration of the animation.
   final int? animationDuration;
 
   @override
